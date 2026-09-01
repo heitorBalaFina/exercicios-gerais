@@ -1,0 +1,23 @@
+matrix_utils.c: In function ‘matrix_read’:
+matrix_utils.c:7:13: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    7 |             scanf("%d", &num);
+      |             ^~~~~
+matrix_utils.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "matrix_utils.h"
+  +++ |+#include <stdio.h>
+    2 | 
+matrix_utils.c:7:13: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    7 |             scanf("%d", &num);
+      |             ^~~~~
+matrix_utils.c:7:13: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+matrix_utils.c: In function ‘matrix_print’:
+matrix_utils.c:16:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   16 |         printf("|");
+      |         ^~~~~~
+matrix_utils.c:16:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:16:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+matrix_utils.c:16:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:25:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   25 |     printf("\n");
+      |     ^~~~~~
+matrix_utils.c:25:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

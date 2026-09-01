@@ -1,0 +1,7 @@
+/usr/bin/ld: Resultados/Heitor/matrix_utils/main.o: in function `main':
+main.c:(.text+0x8e9): undefined reference to `matrix_multiply'
+/usr/bin/ld: main.c:(.text+0x96b): undefined reference to `scalar_multiply'
+/usr/bin/ld: main.c:(.text+0x9bb): undefined reference to `scalar_multiply'
+/usr/bin/ld: main.c:(.text+0xc4a): undefined reference to `transpose_matrix'
+/usr/bin/ld: main.c:(.text+0xc84): undefined reference to `transpose_matrix'
+collect2: error: ld returned 1 exit status
