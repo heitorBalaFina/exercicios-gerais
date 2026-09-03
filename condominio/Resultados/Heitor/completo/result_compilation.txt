@@ -1,0 +1,19 @@
+data.c: In function ‘lerData’:
+data.c:6:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    6 |     scanf("%d/%d/%d ", &d.dia, &d.mes, &d.ano);
+      |     ^~~~~
+data.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    2 | #include "math.h"
+  +++ |+#include <stdio.h>
+    3 | 
+data.c:6:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    6 |     scanf("%d/%d/%d ", &d.dia, &d.mes, &d.ano);
+      |     ^~~~~
+data.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+data.c: In function ‘imprimeData’:
+data.c:11:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   11 |     printf("%d/%d/%d\n", d.dia, d.mes, d.ano);
+      |     ^~~~~~
+data.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+data.c:11:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+data.c:11:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
