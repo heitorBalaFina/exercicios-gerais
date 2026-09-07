@@ -4,14 +4,14 @@ Pastas Linkadas Corretamente: 3 de 3
 Teste main
   - Resultados corretos: 5 de 5
   - Valgrinds corretos: 5 de 5
-Nota de Heitor para o teste main: 3.33
+Nota de Heitor para o teste main: 
 Teste completo
   - Resultados corretos: 5 de 5
   - Valgrinds corretos: 5 de 5
-Nota de Heitor para o teste completo: 3.34
+Nota de Heitor para o teste completo: 
 Teste ponto
   - Resultados corretos: 5 de 5
   - Valgrinds corretos: 5 de 5
-Nota de Heitor para o teste ponto: 3.33
-Nota de Heitor: 0+(3.33)+(3.34)+(3.33)
-Nota de Heitor: 10.00
+Nota de Heitor para o teste ponto: 
+Nota de Heitor: 0+()+()+()
+Nota de Heitor: 

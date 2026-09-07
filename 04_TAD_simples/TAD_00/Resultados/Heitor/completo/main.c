@@ -12,7 +12,7 @@ int main(){
     scanf(" %f %f", &x, &y);
     ponto2 = pto_cria(x, y);
 
-    printf("%g", pto_distancia(ponto1, ponto2));
+    printf("%g\n", pto_distancia(ponto1, ponto2));
 
     return 0;
 }
