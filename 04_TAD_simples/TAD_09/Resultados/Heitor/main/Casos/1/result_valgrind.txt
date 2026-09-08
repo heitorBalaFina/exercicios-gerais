@@ -1,0 +1,15 @@
+==118793== Memcheck, a memory error detector
+==118793== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==118793== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==118793== Command: Resultados/Heitor/main/prog Resultados/Heitor/main/Casos/1
+==118793== Parent PID: 118792
+==118793== 
+==118793== 
+==118793== HEAP SUMMARY:
+==118793==     in use at exit: 0 bytes in 0 blocks
+==118793==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==118793== 
+==118793== All heap blocks were freed -- no leaks are possible
+==118793== 
+==118793== For lists of detected and suppressed errors, rerun with: -s
+==118793== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
