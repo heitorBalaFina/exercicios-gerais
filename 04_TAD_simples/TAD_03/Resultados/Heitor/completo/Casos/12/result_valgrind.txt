@@ -1,0 +1,39 @@
+==155247== Memcheck, a memory error detector
+==155247== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==155247== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==155247== Command: Resultados/Heitor/completo/prog Resultados/Heitor/completo/Casos/12
+==155247== Parent PID: 155246
+==155247== 
+==155247== Invalid write of size 4
+==155247==    at 0x48ED200: __vfscanf_internal (vfscanf-internal.c:1998)
+==155247==    by 0x48DAAB5: __isoc23_scanf (isoc23_scanf.c:30)
+==155247==    by 0x4001912: main (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Heitor/completo/prog)
+==155247==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==155247== 
+==155247== 
+==155247== Process terminating with default action of signal 11 (SIGSEGV)
+==155247==  Access not within mapped region at address 0x0
+==155247==    at 0x48ED200: __vfscanf_internal (vfscanf-internal.c:1998)
+==155247==    by 0x48DAAB5: __isoc23_scanf (isoc23_scanf.c:30)
+==155247==    by 0x4001912: main (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Heitor/completo/prog)
+==155247==  If you believe this happened as a result of a stack
+==155247==  overflow in your program's main thread (unlikely but
+==155247==  possible), you can try to increase the size of the
+==155247==  main thread stack using the --main-stacksize= flag.
+==155247==  The main thread stack size used in this run was 8388608.
+==155247== 
+==155247== HEAP SUMMARY:
+==155247==     in use at exit: 4,096 bytes in 1 blocks
+==155247==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==155247== 
+==155247== LEAK SUMMARY:
+==155247==    definitely lost: 0 bytes in 0 blocks
+==155247==    indirectly lost: 0 bytes in 0 blocks
+==155247==      possibly lost: 0 bytes in 0 blocks
+==155247==    still reachable: 4,096 bytes in 1 blocks
+==155247==         suppressed: 0 bytes in 0 blocks
+==155247== Reachable blocks (those to which a pointer was found) are not shown.
+==155247== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==155247== 
+==155247== For lists of detected and suppressed errors, rerun with: -s
+==155247== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

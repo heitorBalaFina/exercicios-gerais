@@ -1,0 +1,7 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Heitor/locadora/main.o: na função "main":
+main.c:(.text+0x136): referência não definida para "lerAluguelLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x1b7): referência não definida para "lerDevolucaoLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x23c): referência não definida para "ordenarFilmesLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x28a): referência não definida para "consultarEstoqueLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x2f3): referência não definida para "consultarLucroLocadora"
+collect2: error: ld returned 1 exit status

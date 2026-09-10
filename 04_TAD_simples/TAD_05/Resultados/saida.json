@@ -1,0 +1,12 @@
+{
+	"alunos": [
+		{
+			"Nome":"Heitor",
+			"Nota":10.00
+		},
+		{
+			"Nome":"Heitor/main",
+			"Nota":0
+		}
+	]
+}

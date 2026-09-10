@@ -1,0 +1,18 @@
+main.c: In function ‘main’:
+main.c:10:23: warning: format ‘%[^
+   ’ expects a matching ‘char *’ argument [-Wformat=]
+   10 |     while(scanf("%19[^\n]") == 1){
+      |                  ~~~~~^~
+      |                       |
+      |                       char *
+main.c:11:36: warning: comparison between pointer and integer
+   11 |         while(scanf("%d,", &codigo == 1)){
+      |                                    ^~
+main.c:11:23: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   11 |         while(scanf("%d,", &codigo == 1)){
+      |                      ~^    ~~~~~~~~~~~~
+      |                       |            |
+      |                       int *        int
+main.c:8:10: warning: unused variable ‘opcao’ [-Wunused-variable]
+    8 |     char opcao[MAX_CARACTERES];
+      |          ^~~~~

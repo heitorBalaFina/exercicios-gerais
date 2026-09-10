@@ -1,0 +1,39 @@
+==152948== Memcheck, a memory error detector
+==152948== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==152948== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==152948== Command: Resultados/Heitor/main/prog Resultados/Heitor/main/Casos/3
+==152948== Parent PID: 152946
+==152948== 
+==152948== Invalid write of size 4
+==152948==    at 0x48EE200: __vfscanf_internal (vfscanf-internal.c:1998)
+==152948==    by 0x48DBAB5: __isoc23_scanf (isoc23_scanf.c:30)
+==152948==    by 0x4002937: main (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Heitor/main/prog)
+==152948==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==152948== 
+==152948== 
+==152948== Process terminating with default action of signal 11 (SIGSEGV)
+==152948==  Access not within mapped region at address 0x0
+==152948==    at 0x48EE200: __vfscanf_internal (vfscanf-internal.c:1998)
+==152948==    by 0x48DBAB5: __isoc23_scanf (isoc23_scanf.c:30)
+==152948==    by 0x4002937: main (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Heitor/main/prog)
+==152948==  If you believe this happened as a result of a stack
+==152948==  overflow in your program's main thread (unlikely but
+==152948==  possible), you can try to increase the size of the
+==152948==  main thread stack using the --main-stacksize= flag.
+==152948==  The main thread stack size used in this run was 8388608.
+==152948== 
+==152948== HEAP SUMMARY:
+==152948==     in use at exit: 4,096 bytes in 1 blocks
+==152948==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==152948== 
+==152948== LEAK SUMMARY:
+==152948==    definitely lost: 0 bytes in 0 blocks
+==152948==    indirectly lost: 0 bytes in 0 blocks
+==152948==      possibly lost: 0 bytes in 0 blocks
+==152948==    still reachable: 4,096 bytes in 1 blocks
+==152948==         suppressed: 0 bytes in 0 blocks
+==152948== Reachable blocks (those to which a pointer was found) are not shown.
+==152948== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==152948== 
+==152948== For lists of detected and suppressed errors, rerun with: -s
+==152948== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

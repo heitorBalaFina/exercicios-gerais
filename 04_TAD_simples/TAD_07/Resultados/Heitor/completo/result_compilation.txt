@@ -1,0 +1,8 @@
+data.c: In function ‘VerificaBissexto’:
+data.c:33:24: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   33 |     if(!(data.ano % 4) && (data.ano % 100) || !(data.ano%400)){
+      |        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+data.c: In function ‘CalculaDiferencaDias’:
+data.c:114:19: warning: variable ‘meses’ set but not used [-Wunused-but-set-variable]
+  114 |     int anos = 0, meses = 0, dias = 0;
+      |                   ^~~~~

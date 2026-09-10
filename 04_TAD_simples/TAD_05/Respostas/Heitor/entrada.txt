@@ -1,0 +1,15 @@
+2                           // quantidade de usuarios
+3                           // operação
+henrique 222444444 1        // nome / CPF / num conta
+3                           // operação
+mirelly 444555666 2         // nome / CPF / num conta
+2                           // operação (deposito)
+1 450                       // num conta / valor
+2                           // operação (deposito)
+2 130                       // num conta / valor
+1                           // operação (saque)
+1 100                       // num conta / valor
+1                           // operação (saque)
+2 120                       // num conta / valor
+4                           // operação (imprimir todas as contas)
+0                           // operação (fim do programa)

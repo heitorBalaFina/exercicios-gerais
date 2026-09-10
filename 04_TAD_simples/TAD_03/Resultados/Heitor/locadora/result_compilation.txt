@@ -1,0 +1,7 @@
+locadora.c: In function ‘cadastrarFilmeLocadora’:
+locadora.c:26:35: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   26 |         printf("Filme cadastrado %d - ", filme.nome);
+      |                                  ~^      ~~~~~~~~~~
+      |                                   |           |
+      |                                   int         char *
+      |                                  %s

@@ -9,10 +9,10 @@ int main(){
     tEmpresa empresas[qtdEmpresas];  
 
     for(int i = 0; i < qtdEmpresas; i++){
-        empresas[i] = leEmpresa();     
-
-    for(int i = 0; i < qtdEmpresas; i++){
-        imprimeEmpresa(empresas[i]);   
+        empresas[i] = leEmpresa();
+        for(int i = 0; i < qtdEmpresas; i++){
+            imprimeEmpresa(empresas[i]);   
+        }
     }
 
     return 0;

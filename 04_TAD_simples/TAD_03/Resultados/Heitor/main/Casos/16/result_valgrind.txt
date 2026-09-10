@@ -1,0 +1,39 @@
+==151813== Memcheck, a memory error detector
+==151813== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==151813== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==151813== Command: Resultados/Heitor/main/prog Resultados/Heitor/main/Casos/16
+==151813== Parent PID: 151812
+==151813== 
+==151813== Invalid write of size 4
+==151813==    at 0x48EE200: __vfscanf_internal (vfscanf-internal.c:1998)
+==151813==    by 0x48DBAB5: __isoc23_scanf (isoc23_scanf.c:30)
+==151813==    by 0x4002937: main (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Heitor/main/prog)
+==151813==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==151813== 
+==151813== 
+==151813== Process terminating with default action of signal 11 (SIGSEGV)
+==151813==  Access not within mapped region at address 0x0
+==151813==    at 0x48EE200: __vfscanf_internal (vfscanf-internal.c:1998)
+==151813==    by 0x48DBAB5: __isoc23_scanf (isoc23_scanf.c:30)
+==151813==    by 0x4002937: main (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Heitor/main/prog)
+==151813==  If you believe this happened as a result of a stack
+==151813==  overflow in your program's main thread (unlikely but
+==151813==  possible), you can try to increase the size of the
+==151813==  main thread stack using the --main-stacksize= flag.
+==151813==  The main thread stack size used in this run was 8388608.
+==151813== 
+==151813== HEAP SUMMARY:
+==151813==     in use at exit: 4,096 bytes in 1 blocks
+==151813==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==151813== 
+==151813== LEAK SUMMARY:
+==151813==    definitely lost: 0 bytes in 0 blocks
+==151813==    indirectly lost: 0 bytes in 0 blocks
+==151813==      possibly lost: 0 bytes in 0 blocks
+==151813==    still reachable: 4,096 bytes in 1 blocks
+==151813==         suppressed: 0 bytes in 0 blocks
+==151813== Reachable blocks (those to which a pointer was found) are not shown.
+==151813== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==151813== 
+==151813== For lists of detected and suppressed errors, rerun with: -s
+==151813== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

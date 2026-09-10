@@ -9,7 +9,7 @@
 				"-fdiagnostics-color=always",
 				"-g",
 				"${fileDirname}/*.c",
-				//"${fileDirname}/*.o",
+				"${fileDirname}/*.o",
 				"-o",
 				"${fileDirname}/prog",
 				"-lm"
