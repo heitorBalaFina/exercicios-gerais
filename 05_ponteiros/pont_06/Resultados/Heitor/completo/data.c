@@ -1,10 +1,15 @@
 #include "data.h"
 #include <stdio.h>
 
+#define MESES 12
+
 void InicializaDataParam( int dia, int mes, int ano, tData *data){
     data->dia = dia;
     data->mes = mes;
     data->ano = ano;
+    int diasDoMes = InformaQtdDiasNoMes(data);
+    if(data->dia > diasDoMes) data->dia = diasDoMes;
+    if(data->mes > MESES) data->mes = MESES;
 }
 
 void LeData( tData *data ){
