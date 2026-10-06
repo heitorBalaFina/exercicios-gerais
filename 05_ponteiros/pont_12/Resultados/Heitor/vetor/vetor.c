@@ -2,13 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
-typedef struct vetor {
-    int elementos[TAMANHO_MAXIMO];
-    int tamanhoUtilizado;
-} Vetor;
-*/
-
 void LeVetor(Vetor *vetor){
     int i;
     scanf("%d", &vetor->tamanhoUtilizado);
