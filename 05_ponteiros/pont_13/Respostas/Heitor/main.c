@@ -20,12 +20,10 @@ int main(){
     int numPassos, numMsgs;
     char msg[NUM_MAX_MSGS][TAM_MAX_MSG];
     char mensagem[NUM_MAX_MSGS*TAM_MAX_MSG];
-    mensagem[0] = '\0';
     
     scanf("%d\n%d", &numPassos, &numMsgs);
     LeMensagens(msg, &numMsgs);
     MatrixViraTxt(mensagem, msg, &numMsgs);
-    //printf("%s\n", mensagem);
     GiraMensagem(mensagem, &numPassos);
 
     return 0;
@@ -39,6 +37,7 @@ void LeMensagens(char msg[NUM_MAX_MSGS][TAM_MAX_MSG], int *numMsgs){
 }
 
 void MatrixViraTxt(char destino[], char matrix[NUM_MAX_MSGS][TAM_MAX_MSG], int *numMsgs){
+    destino[0] = '\0';
     int i;
     for(i = 0; i < *numMsgs; i++){
         strcat(destino, matrix[i]);        
