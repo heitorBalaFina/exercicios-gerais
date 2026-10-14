@@ -60,9 +60,8 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Heitor/completo/result_linking.txt
  - Pasta rolagem:
  - Gerando o binário prog linkando com o(s) arquivo(s) rolagem/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Heitor/rolagem/result_linking.txt
- - Arquivos Linkados: Erro! 1 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -90,14 +89,16 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta completo (máximo 3.34) - 20.00 de 20 - 100.00% de 3.34: 3.34.
  -----
  - Pasta rolagem / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Heitor/rolagem/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta rolagem / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta rolagem (máximo 3.33) - 0 de 20 - 0% de 3.33: 0.
+ - Arquivo de output gerado: Resultados/Heitor/rolagem/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta rolagem (máximo 3.33) - 20.00 de 20 - 100.00% de 3.33: 3.33.
  -----
 
 #######################################
@@ -108,7 +109,7 @@ RESULTADOS FINAIS
 Aluno: Heitor
  - Arquivos Esperados Corretos: 3 de 3
  - Pastas Compiladas Corretamente: 3 de 3 
- - Pastas Linkadas Corretamente: 2 de 3
+ - Pastas Linkadas Corretamente: 3 de 3
  - Teste main
  - Resultados corretos: 2 de 2
  - Valgrinds corretos: 2 de 2
@@ -118,11 +119,11 @@ Aluno: Heitor
  - Valgrinds corretos: 2 de 2
  - Nota de Heitor para o teste completo: 3.34
  - Teste rolagem
- - Resultados corretos: 0 de 2
- - Valgrinds corretos: 0 de 2
- - Nota de Heitor para o teste rolagem: 0
- - Nota de Heitor: 0+(3.33)+(3.34)+(0)
- - Nota de Heitor: 6.67
+ - Resultados corretos: 2 de 2
+ - Valgrinds corretos: 2 de 2
+ - Nota de Heitor para o teste rolagem: 3.33
+ - Nota de Heitor: 0+(3.33)+(3.34)+(3.33)
+ - Nota de Heitor: 10.00
 
 ----------------------------------------------------------------------------
 

@@ -1,4 +1,0 @@
-main.c: In function ‘GiraMensagem’:
-main.c:56:9: warning: unused variable ‘giro’ [-Wunused-variable]
-   56 |     int giro = 0;
-      |         ^~~~
