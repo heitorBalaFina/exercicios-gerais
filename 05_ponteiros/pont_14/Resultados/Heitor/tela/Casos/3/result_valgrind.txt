@@ -1,0 +1,145 @@
+==110201== Memcheck, a memory error detector
+==110201== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==110201== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==110201== Command: Resultados/Heitor/tela/prog Resultados/Heitor/tela/Casos/3
+==110201== Parent PID: 110200
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x1097B3: RegistraBotaoTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x109616: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x1097B3: RegistraBotaoTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x109657: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x1097B3: RegistraBotaoTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x109698: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x10982B: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x1098B2: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110201==    by 0x48E4DA7: __printf_buffer (vfprintf-process-arg.c:435)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x484F238: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110201==    by 0x48E4DA7: __printf_buffer (vfprintf-process-arg.c:435)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x48E40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Use of uninitialised value of size 8
+==110201==    at 0x48D90BB: _itoa_word (_itoa.c:183)
+==110201==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x48D90CC: _itoa_word (_itoa.c:183)
+==110201==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x48E3D85: __printf_buffer (vfprintf-process-arg.c:186)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Conditional jump or move depends on uninitialised value(s)
+==110201==    at 0x48E3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Syscall param write(buf) points to uninitialised byte(s)
+==110201==    at 0x49965A4: write (write.c:26)
+==110201==    by 0x490D974: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==110201==    by 0x490C570: new_do_write (fileops.c:449)
+==110201==    by 0x490C570: _IO_do_write@@GLIBC_2.2.5 (fileops.c:426)
+==110201==    by 0x490CF7A: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:779)
+==110201==    by 0x48DAAF9: __printf_buffer_flush_to_file (printf_buffer_to_file.c:74)
+==110201==    by 0x48DA7E4: __printf_buffer_do_flush (printf_buffer_flush.c:53)
+==110201==    by 0x48DA7E4: __printf_buffer_flush (Xprintf_buffer_flush.c:65)
+==110201==    by 0x48DADA8: __printf_buffer_write (Xprintf_buffer_write.c:33)
+==110201==    by 0x48E351B: __printf_buffer (vfprintf-process-arg.c:501)
+==110201==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==110201==    by 0x48DA1B2: printf (printf.c:33)
+==110201==    by 0x109432: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==  Address 0x4a8f05c is 28 bytes inside a block of size 4,096 alloc'd
+==110201==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110201==    by 0x48FF1B4: _IO_file_doallocate (filedoalloc.c:101)
+==110201==    by 0x490F523: _IO_doallocbuf (genops.c:347)
+==110201==    by 0x490CF8F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==110201==    by 0x490DAAE: _IO_new_file_xsputn (fileops.c:1244)
+==110201==    by 0x490DAAE: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==110201==    by 0x4901C5C: puts (ioputs.c:40)
+==110201==    by 0x1093EF: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1098A0: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201== 
+==110201== Invalid read of size 8
+==110201==    at 0x109886: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==  Address 0x1fff001000 is not stack'd, malloc'd or (recently) free'd
+==110201== 
+==110201== 
+==110201== Process terminating with default action of signal 11 (SIGSEGV)
+==110201==  Access not within mapped region at address 0x1FFF001000
+==110201==    at 0x109886: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==    by 0x1096C3: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/tela/prog)
+==110201==  If you believe this happened as a result of a stack
+==110201==  overflow in your program's main thread (unlikely but
+==110201==  possible), you can try to increase the size of the
+==110201==  main thread stack using the --main-stacksize= flag.
+==110201==  The main thread stack size used in this run was 8388608.
+==110201== 
+==110201== HEAP SUMMARY:
+==110201==     in use at exit: 4,096 bytes in 1 blocks
+==110201==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==110201== 
+==110201== LEAK SUMMARY:
+==110201==    definitely lost: 0 bytes in 0 blocks
+==110201==    indirectly lost: 0 bytes in 0 blocks
+==110201==      possibly lost: 0 bytes in 0 blocks
+==110201==    still reachable: 4,096 bytes in 1 blocks
+==110201==         suppressed: 0 bytes in 0 blocks
+==110201== Reachable blocks (those to which a pointer was found) are not shown.
+==110201== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==110201== 
+==110201== Use --track-origins=yes to see where uninitialised values come from
+==110201== For lists of detected and suppressed errors, rerun with: -s
+==110201== ERROR SUMMARY: 1000 errors from 14 contexts (suppressed: 0 from 0)
