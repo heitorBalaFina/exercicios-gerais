@@ -1,110 +1,15 @@
-==111865== Memcheck, a memory error detector
-==111865== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==111865== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==111865== Command: Resultados/Heitor/botao/prog Resultados/Heitor/botao/Casos/3
-==111865== Parent PID: 111864
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1092E8: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109539: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1092F4: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109539: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x109300: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109539: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1092E8: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10956B: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1092F4: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10956B: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x109300: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10956B: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1092E8: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10959D: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1092F4: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10959D: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x109300: SetarTipo (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109389: CriarBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10959D: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x48E40CB: __printf_buffer (vfprintf-process-arg.c:58)
-==111865==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==111865==    by 0x48DA1B2: printf (printf.c:33)
-==111865==    by 0x109489: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109887: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096A0: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Use of uninitialised value of size 8
-==111865==    at 0x48D90BB: _itoa_word (_itoa.c:183)
-==111865==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
-==111865==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==111865==    by 0x48DA1B2: printf (printf.c:33)
-==111865==    by 0x109489: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109887: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096A0: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x48D90CC: _itoa_word (_itoa.c:183)
-==111865==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
-==111865==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==111865==    by 0x48DA1B2: printf (printf.c:33)
-==111865==    by 0x109489: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109887: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096A0: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x48E3D85: __printf_buffer (vfprintf-process-arg.c:186)
-==111865==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==111865==    by 0x48DA1B2: printf (printf.c:33)
-==111865==    by 0x109489: DesenhaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x109887: DesenhaTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096A0: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x1093F9: ExecutaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10995F: OuvidorEventosTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096CE: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x109401: ExecutaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10995F: OuvidorEventosTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096CE: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== Conditional jump or move depends on uninitialised value(s)
-==111865==    at 0x109409: ExecutaBotao (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x10995F: OuvidorEventosTela (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865==    by 0x1096CE: main (in /home/hrvichelo/Downloads/exercicios-gerais/05_ponteiros/pont_14/Resultados/Heitor/botao/prog)
-==111865== 
-==111865== 
-==111865== HEAP SUMMARY:
-==111865==     in use at exit: 0 bytes in 0 blocks
-==111865==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==111865== 
-==111865== All heap blocks were freed -- no leaks are possible
-==111865== 
-==111865== Use --track-origins=yes to see where uninitialised values come from
-==111865== For lists of detected and suppressed errors, rerun with: -s
-==111865== ERROR SUMMARY: 24 errors from 16 contexts (suppressed: 0 from 0)
+==46181== Memcheck, a memory error detector
+==46181== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==46181== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==46181== Command: Resultados/Heitor/botao/prog Resultados/Heitor/botao/Casos/3
+==46181== Parent PID: 46180
+==46181== 
+==46181== 
+==46181== HEAP SUMMARY:
+==46181==     in use at exit: 0 bytes in 0 blocks
+==46181==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==46181== 
+==46181== All heap blocks were freed -- no leaks are possible
+==46181== 
+==46181== For lists of detected and suppressed errors, rerun with: -s
+==46181== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

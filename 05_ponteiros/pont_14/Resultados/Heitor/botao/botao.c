@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "botao.h"
 
 /*
@@ -33,7 +34,7 @@ void SetarCor(Botao *b, char *novaCor){
 }
 
 void SetarTipo(Botao *b, int novoTipo){
-    if(b->tipo == CLICK || b->tipo == LONGO_CLICK || b->tipo == HOVER){
+    if(novoTipo == CLICK || novoTipo == LONGO_CLICK || novoTipo == HOVER){
         b->tipo = novoTipo;
     }
     
@@ -51,6 +52,9 @@ Botao CriarBotao(char *texto, int tamFonte, char *cor, int tipo, void (*executa)
 
 void ExecutaBotao(Botao b){
     // Verificamos se o tipo é válido (1, 2 ou 3) de acordo com o .h
+    printf("- Executando o botao com evento de ");
+    if(b.tipo == 1) printf("click\n");
+    if(b.tipo == 2) printf("longo click\n");
     if(b.tipo == CLICK || b.tipo == LONGO_CLICK || b.tipo == HOVER){
         // Se a função existir, nós a executamos
         if(b.executa != NULL){
