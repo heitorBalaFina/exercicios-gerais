@@ -1,0 +1,283 @@
+==105760== Memcheck, a memory error detector
+==105760== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==105760== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==105760== Command: Resultados/Heitor/matrix_utils/prog Resultados/Heitor/matrix_utils/Casos/2
+==105760== Parent PID: 105759
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001CAA: TransposeMatrix (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40014D6: main (main.c:70)
+==105760==  Address 0x4a9c088 is 8 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001CC1: TransposeMatrix (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40014D6: main (main.c:70)
+==105760==  Address 0x4a9c080 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001CC7: TransposeMatrix (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40014D6: main (main.c:70)
+==105760==  Address 0x4a9c084 is 4 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001CFE: TransposeMatrix (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40014D6: main (main.c:70)
+==105760==  Address 0x4a9c088 is 8 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001D0F: TransposeMatrix (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40014D6: main (main.c:70)
+==105760==  Address 0x4a9c0d0 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400172E: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x40015CF: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001D45: TransposeMatrix (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40014D6: main (main.c:70)
+==105760==  Address 0x4a9c120 is 0 bytes inside a block of size 12 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400170F: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001630: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001994: PossibleMatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40013F2: main (main.c:50)
+==105760==  Address 0x4a9c084 is 4 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001994: PossibleMatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001D94: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c084 is 4 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001DAE: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c080 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001EEE: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c080 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001EC6: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c084 is 4 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001E48: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c088 is 8 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001E59: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c0d0 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400172E: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x40015CF: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001E69: MatrixMultiply (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400141D: main (main.c:55)
+==105760==  Address 0x4a9c120 is 0 bytes inside a block of size 12 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400170F: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001630: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x40016DE: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c088 is 8 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 4
+==105760==    at 0x4001718: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c080 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x40016F4: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c088 is 8 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001705: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c0d0 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400172E: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x40015CF: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid free() / delete / delete[] / realloc()
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400170F: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c120 is 0 bytes inside a block of size 12 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400170F: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001630: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid read of size 8
+==105760==    at 0x4001723: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c088 is 8 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid free() / delete / delete[] / realloc()
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400172E: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c0d0 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400172E: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x40015CF: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== Invalid free() / delete / delete[] / realloc()
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x400153C: main (main.c:84)
+==105760==  Address 0x4a9c080 is 0 bytes inside a block of size 16 free'd
+==105760==    at 0x48538BF: free (vg_replace_malloc.c:990)
+==105760==    by 0x400173A: MatrixFree (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x4001522: main (main.c:80)
+==105760==  Block was alloc'd at
+==105760==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==105760==    by 0x4001596: MatrixCreate (in /home/heitor/Área de trabalho/Heitor/prog/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Heitor/matrix_utils/prog)
+==105760==    by 0x40012B0: main (main.c:22)
+==105760== 
+==105760== 
+==105760== HEAP SUMMARY:
+==105760==     in use at exit: 0 bytes in 0 blocks
+==105760==   total heap usage: 28 allocs, 32 frees, 8,528 bytes allocated
+==105760== 
+==105760== All heap blocks were freed -- no leaks are possible
+==105760== 
+==105760== For lists of detected and suppressed errors, rerun with: -s
+==105760== ERROR SUMMARY: 92 errors from 22 contexts (suppressed: 0 from 0)
