@@ -1,0 +1,4 @@
+main.c: In function ‘LerDepartamento’:
+main.c:54:11: warning: unused variable ‘media’ [-Wunused-variable]
+   54 |     float media;
+      |           ^~~~~

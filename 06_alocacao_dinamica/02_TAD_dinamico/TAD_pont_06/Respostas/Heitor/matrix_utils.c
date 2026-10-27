@@ -144,20 +144,39 @@ tMatrix* MatrixSub(tMatrix* matrix1, tMatrix* matrix2){
 
     return sub;
 }
-
+/*
 tMatrix* MatrixMultiplyByScalar(tMatrix* matrix, int scalar){
     if(matrix == NULL || matrix->data == NULL) return NULL;
 
     int i, j;
-
     for(i = 0; i < matrix->rows; i++){
         for(j = 0; j < matrix->cols; j++){
-            matrix->data[i][j] *= scalar;
+            matrix->data[i][j] *= scalar; // Modifica o valor permanentemente na matriz original
         }
     }
 
-    return matrix;
+    return matrix; // Retorna a própria matriz modificada
 }
+*/
+
+
+tMatrix* MatrixMultiplyByScalar(tMatrix* matrix, int scalar){
+    if(matrix == NULL || matrix->data == NULL) return NULL;
+
+    tMatrix* resultado = MatrixCreate(matrix->rows, matrix->cols);
+    if(resultado == NULL) return NULL;
+
+    int i, j;
+    for(i = 0; i < matrix->rows; i++){
+        for(j = 0; j < matrix->cols; j++){
+            resultado->data[i][j] = matrix->data[i][j] * scalar;
+        }
+    }
+
+    return resultado;
+}
+
+
 
 tMatrix* TransposeMatrix(tMatrix* matrix){
     if(matrix == NULL || matrix->data == NULL) return NULL;
@@ -167,9 +186,9 @@ tMatrix* TransposeMatrix(tMatrix* matrix){
 
     int i, j;
 
-    for(i = 0; i < trans->rows; i++){
-        for(j = 0; j < trans->cols; j++){
-            trans->data[i][j] = matrix->data[j][i];
+    for(i = 0; i < matrix->rows; i++){
+        for(j = 0; j < matrix->cols; j++){
+            trans->data[j][i] = matrix->data[i][j];
         }
     }
 
@@ -184,13 +203,19 @@ tMatrix* MatrixMultiply(tMatrix* matrix1, tMatrix* matrix2){
 
     int i, j, k;
 
+    // Inicializa a matriz de resultado com zero
     for(i = 0; i < matrix1->rows; i++){
         for(j = 0; j < matrix2->cols; j++){
             resultado->data[i][j] = 0;
+        }
+    }
 
-            for(k = 0; k < matrix1->cols; k++){
-                resultado->data[i][j] +=
-                    matrix1->data[i][k] * matrix2->data[k][j];
+    // Loop otimizado (IKJ) para máxima localidade de cache
+    for(i = 0; i < matrix1->rows; i++){
+        for(k = 0; k < matrix1->cols; k++){
+            int r_ik = matrix1->data[i][k]; // Evita múltiplos acessos repetidos
+            for(j = 0; j < matrix2->cols; j++){
+                resultado->data[i][j] += r_ik * matrix2->data[k][j];
             }
         }
     }
