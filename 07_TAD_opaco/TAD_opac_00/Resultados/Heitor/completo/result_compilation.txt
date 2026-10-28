@@ -1,0 +1,7 @@
+circulo.c: In function ‘Circulo_Interior’:
+circulo.c:51:11: warning: unused variable ‘distancia’ [-Wunused-variable]
+   51 |     float distancia = Pto_Distancia(Circulo_Acessa_Centro(c), p);
+      |           ^~~~~~~~~
+circulo.c:50:11: warning: unused variable ‘raio’ [-Wunused-variable]
+   50 |     float raio = Circulo_Acessa_Raio(c);
+      |           ^~~~

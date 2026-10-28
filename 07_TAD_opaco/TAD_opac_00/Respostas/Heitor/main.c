@@ -5,11 +5,11 @@
 #include <stdlib.h>
 
 int main(){
-    float x,y,r;
-    scanf("%f %f %f", &x, &y, &r);
+    float x,y,r, x1, y1;
+    scanf("%f %f %f %f %f", &x, &y, &r, &x1, &y1);
+    //printf("x: %.2f y: %.2f r: %.2f x1: %.2f y1: %.2f\n", x, y, r, x1, y1);
     tCirculo circulo = Circulo_Cria(x, y, r);
-    scanf("%f %f", &x, &y);
-    tPonto ponto = Pto_Cria(x,y);
+    tPonto ponto = Pto_Cria(x1,y1);
 
     printf("%d\n", Circulo_Interior(circulo, ponto));
     
