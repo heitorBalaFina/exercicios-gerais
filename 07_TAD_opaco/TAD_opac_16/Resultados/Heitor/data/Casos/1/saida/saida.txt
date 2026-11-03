@@ -1,0 +1,7 @@
+O tiquete processado tem valor: 8.00 reais
+O tiquete processado tem valor: 0.00 reais
+O tiquete processado tem valor: 70.00 reais
+O tiquete processado tem valor: 1.00 reais
+O tiquete processado tem valor: 21.00 reais
+O tiquete processado tem valor: 9.00 reais
+O sistema faturou: 109.00 reais

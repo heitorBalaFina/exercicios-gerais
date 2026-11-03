@@ -1,0 +1,6 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Heitor/sistema/main.o: na função "main":
+/home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:7:(.text+0xe): referência não definida para "CriaSistema"
+/usr/bin/x86_64-linux-gnu-ld.bfd: /home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:8:(.text+0x1e): referência não definida para "LeSistema"
+/usr/bin/x86_64-linux-gnu-ld.bfd: /home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:9:(.text+0x2a): referência não definida para "ImprimeFaturamentoSistema"
+/usr/bin/x86_64-linux-gnu-ld.bfd: /home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:10:(.text+0x36): referência não definida para "DestroiSistema"
+collect2: error: ld returned 1 exit status
